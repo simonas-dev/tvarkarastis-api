@@ -184,6 +184,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   byebug
   capistrano-rails
   capistrano-rbenv (~> 2.0)

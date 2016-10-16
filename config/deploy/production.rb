@@ -3,8 +3,6 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-set :deploy_via, :copy
-set :ssh_options, {:forward_agent => true}
 server '194.135.88.83', user: 'root', roles: %w{web app}
 
 
