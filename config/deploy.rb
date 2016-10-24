@@ -12,6 +12,13 @@ task :restart do
   end
 end
 
+namespace :deploy do
+  task :seed do
+    run "cd #{current_path}"
+    run "bundle exec rake db:seed RAILS_ENV=#{rails_env}"
+  end
+end
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
