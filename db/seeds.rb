@@ -3,9 +3,11 @@ json = ActiveSupport::JSON.decode(File.read('db/seeds/schools.json'))
 
 school_list = []
 
-json.each do |a|
-  puts a['kodas'] 
+School.destroy_all
 
+puts School.count
+
+json.each do |a|
 	code = a['kodas']
 	name = a['geltoni']['name']
 	web = a['geltoni']['web']
@@ -33,3 +35,5 @@ json.each do |a|
 end
 
 School.create(school_list)
+
+puts School.count

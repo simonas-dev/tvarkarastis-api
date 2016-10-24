@@ -3711,10 +3711,10 @@
     "geocode": {
       "query": "Šilelių g. 2, LT-84403",
       "location": {
-        "lat": 41.1859156,
-        "lng": -111.8926303
+        "lat": 56.341664,
+        "lng": 23.6603616
       },
-      "place_id": "ChIJWZShAxsGU4cRMct7W6RSMSA"
+      "place_id": null
     }
   },
   {
@@ -9673,8 +9673,8 @@
     "geocode": {
       "query": "Centro g. 2, LT-86262",
       "location": {
-        "lat": -33.4714853,
-        "lng": -70.63884449999999
+        "lat": 55.546575,
+        "lng": 22.806359
       },
       "place_id": "ChIJ191xBUTFYpYR3E_K5LqKigs"
     }
@@ -13240,10 +13240,10 @@
     "geocode": {
       "query": "Šventežerio mstl., LT-67203",
       "location": {
-        "lat": 37.7006858,
-        "lng": -97.36786239999999
+        "lat": 54.2403982,
+        "lng": 23.6407811
       },
-      "place_id": "ChIJbR3HcQvhuocRK4b5uFPMuqI"
+      "place_id": "ChIJFzDkR7PB4EYR1Q1pS6kLIhE"
     }
   },
   {
@@ -14394,10 +14394,10 @@
     "geocode": {
       "query": "Renavo g. 35, LT-89402",
       "location": {
-        "lat": 39.2034959,
-        "lng": -119.9856157
+        "lat": 55.49718,
+        "lng": 21.634228
       },
-      "place_id": "ChIJez-c9ul6mYARiFFFtzMQwGQ"
+      "place_id": null
     }
   },
   {
@@ -15079,10 +15079,10 @@
     "geocode": {
       "query": "Antano Kraujelio g. 3, LT-33312",
       "location": {
-        "lat": 26.0898957,
-        "lng": -80.1819268
+        "lat": 55.3520543,
+        "lng": 25.2898798
       },
-      "place_id": "ChIJjV8SrOYD2YgR-GFddlymhmk"
+      "place_id": "ChIJcfHpelGL50YRh9eaVXLxgFM"
     }
   },
   {
@@ -15174,10 +15174,10 @@
     "geocode": {
       "query": "Joniškio mstl., LT-33010",
       "location": {
-        "lat": 25.839203,
-        "lng": -80.2823063
+        "lat": 55.0750365,
+        "lng": 25.6633484
       },
-      "place_id": "ChIJxXlX2gq62YgRU2DSGZEz2eQ"
+      "place_id": null
     }
   },
   {
@@ -15773,10 +15773,10 @@
     "geocode": {
       "query": "Aleksandro Vainausko g. 10, LT-83342",
       "location": {
-        "lat": 42.1955973,
-        "lng": -113.287085
+        "lat": 56.158215,
+        "lng": 23.8134136
       },
-      "place_id": "ChIJmYo8jqJhqoARQBG0ZiNqDBw"
+      "place_id": "ChIJL6QF_ceu6EYR8si1mjwhebw"
     }
   },
   {
@@ -16918,10 +16918,10 @@
     "geocode": {
       "query": "Linkaučių k., LT-38314",
       "location": {
-        "lat": 35.0461762,
-        "lng": -79.0870778
+        "lat": 55.469274,
+        "lng": 24.151386
       },
-      "place_id": "ChIJ9zLR9xU_q4kRt_831WiGbE8"
+      "place_id": null
     }
   },
   {
@@ -17653,10 +17653,10 @@
     "geocode": {
       "query": "Baluškių g. 4, LT-39207",
       "location": {
-        "lat": 32.3,
-        "lng": -90.17999999999999
+        "lat": 55.9765071,
+        "lng": 24.5129291
       },
-      "place_id": "ChIJa3L5eU0yKIYRAEdsc7nX6ZY"
+      "place_id": "ChIJhU00caKD6EYRRFogCBTCaA0"
     }
   },
   {
@@ -19335,10 +19335,10 @@
     "geocode": {
       "query": "7, LT-60401",
       "location": {
-        "lat": 31.1416254,
-        "lng": -88.5323885
+        "lat": 55.444752,
+        "lng": 22.9563767
       },
-      "place_id": "EiQ3IEwgVCBMbiwgTGVha2VzdmlsbGUsIE1TIDM5NDUxLCBVU0E"
+      "place_id": null
     }
   },
   {
@@ -19584,10 +19584,10 @@
     "geocode": {
       "query": "M. Jurgaičio a. 6, LT-60432",
       "location": {
-        "lat": 41.5397073,
-        "lng": -88.0460894
+        "lat": 55.531409,
+        "lng": 23.223762
       },
-      "place_id": "ChIJC3SoRVJmDogRwDjfRHkvyzI"
+      "place_id": "ChIJq_7PEOt75kYRw_hnnqUYM2k"
     }
   },
   {
@@ -22822,10 +22822,10 @@
     "geocode": {
       "query": "Barboros Mejerytės g. 1, LT-80162",
       "location": {
-        "lat": 39.6,
-        "lng": -105.11
+        "lat": 55.7994,
+        "lng": 23.1412792
       },
-      "place_id": "ChIJf1T1lth-a4cReXd2GV1eiqY"
+      "place_id": null
     }
   },
   {
@@ -24247,10 +24247,10 @@
     "geocode": {
       "query": "6, LT-99388",
       "location": {
-        "lat": 33.6400135,
-        "lng": -112.0043339
+        "lat": 55.4620353,
+        "lng": 21.73012
       },
-      "place_id": "ChIJn11u85xxK4cRYwzuzJiynDc"
+      "place_id": "ChIJI-gk4jf35EYRWi2lDHGvCrE"
     }
   },
   {
@@ -24662,10 +24662,10 @@
     "geocode": {
       "query": "Zibalų mstl., LT-19106",
       "location": {
-        "lat": 39.9493801,
-        "lng": -75.145782
+        "lat": 55.087151,
+        "lng": 24.994622
       },
-      "place_id": "ChIJKxciQ4TIxokRbWnEhQnkFMA"
+      "place_id": null
     }
   },
   {
@@ -26025,10 +26025,10 @@
     "geocode": {
       "query": "Viržuvėnų g. 23, LT-88267",
       "location": {
-        "lat": 33.3776976,
-        "lng": -103.4049445
+        "lat": 55.812836,
+        "lng": 22.3832788
       },
-      "place_id": "ChIJFYoFG-4w_YYRRXhnbtV3cdc"
+      "place_id": null
     }
   },
   {
@@ -27534,10 +27534,10 @@
     "geocode": {
       "query": "J. Vaišučio g. 12, LT-20208",
       "location": {
-        "lat": 38.8968052,
-        "lng": -77.0116017
+        "lat": 55.217748,
+        "lng": 25.0977281
       },
-      "place_id": "ChIJGzCb9gq4t4kRGT8qhqEXd00"
+      "place_id": "ChIJVW9qFmeP50YRUsCXl9ft3co"
     }
   },
   {
@@ -28485,10 +28485,10 @@
     "geocode": {
       "query": "Naujųjų Valkininkų k., LT-65461",
       "location": {
-        "lat": 37.674342,
-        "lng": -92.037116
+        "lat": 54.3520622,
+        "lng": 24.7294056
       },
-      "place_id": "ChIJP8xT1lrs2ocRwO-QgP1UV7s"
+      "place_id": null
     }
   },
   {
@@ -34693,10 +34693,10 @@
     "geocode": {
       "query": "3, LT-14207",
       "location": {
-        "lat": 36.4687531,
-        "lng": -96.3932796
+        "lat": 54.7370579,
+        "lng": 25.0790539
       },
-      "place_id": "ChIJC1Vgk8Qqt4cRwLvkWOoeigk"
+      "place_id": "ChIJUe8bHdGN3UYRS6ImtF8A4Dc"
     }
   },
   {
@@ -34885,10 +34885,10 @@
     "geocode": {
       "query": "Eugenijušo Venckovičiaus g. 9, LT-13244",
       "location": {
-        "lat": 43.04782609999999,
-        "lng": -76.1432291
+        "lat": 54.507754,
+        "lng": 25.428793
       },
-      "place_id": "ChIJCwhR9J_z2YkR_gb7vHTA2jg"
+      "place_id": null
     }
   },
   {
