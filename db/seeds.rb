@@ -1,5 +1,5 @@
 
-json = ActiveSupport::JSON.decode(File.read('db/seeds/schools.json'))
+json = ActiveSupport::JSON.decode(File.read('db/seeds/schools_maps_lt.json'))
 
 school_list = []
 
@@ -15,13 +15,15 @@ json.each do |a|
 	if a['geocode'] != {}
 		address = a['geocode']['query']
 		g_place_id = a['geocode']['place_id']
-		lat_s = a['geocode']['location']['lat'].to_s
-		lng_s = a['geocode']['location']['lng'].to_s
-		g_lat_lng = lat_s + ", " + lng_s
 	else
 		address = a['geltoni']['location']['address'] + ", " + a['geltoni']['location']['post_code']
 	end
 
+
+	lat_s = a['mapslt']['location']['lat'].to_s
+	lng_s = a['mapslt']['location']['lng'].to_s
+	g_lat_lng = lat_s + ", " + lng_s
+	
 	school = {
 		code: code,
 		name: name,
