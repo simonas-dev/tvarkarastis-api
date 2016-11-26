@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'gmaps4rails'
 gem 'lodash-rails'
+gem 'geocoder'
 
 gem 'thin'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
