@@ -46,4 +46,5 @@ class HomeController < ApplicationController
     lat_lng =  school.g_lat_lng.to_s.split(", ")
     return { 'lat': lat_lng[0], 'lng': lat_lng[1] }
   end
+  
 end
