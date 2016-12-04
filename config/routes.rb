@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   get '/', to: 'home#index'
-  post '/get', to: 'home#get_schools'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'v1/get', to: 'home#get_all'
+  post 'v1/get', to: 'home#get_in_dist' # :dist :lat :lng
 end

@@ -1,0 +1,15 @@
+current directory: /Users/simonas/Projects/tvarkarastis_api/vendor/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+/Users/simonas/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20161127-80701-1bdpjin.rb extconf.rb
+creating Makefile
+
+current directory: /Users/simonas/Projects/tvarkarastis_api/vendor/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/simonas/Projects/tvarkarastis_api/vendor/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/simonas/Projects/tvarkarastis_api/vendor/ruby/2.3.0/gems/websocket-driver-0.6.4/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20161127-80701-19zczxw
