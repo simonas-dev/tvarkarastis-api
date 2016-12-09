@@ -4,7 +4,7 @@ class UserController < ApplicationController
 	end
 
 	def get
-		@user = User.find_by(device_id: params[:id]).last(50)
+		@user = User.find_by(device_id: params[:id]).take(50)
 		@footsteps = Footstep.where(user_id: @user.id)
 		
 		@hash = Gmaps4rails.build_markers(@footsteps) do |footstep, marker|
