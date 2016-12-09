@@ -1,0 +1,7 @@
+<ul style="list-style: none;">
+<% @users.each do |user| %>
+  <li>
+  	<a href="/user/<%= user.device_id %>"><%= user.device_id %></a>
+  </li>
+<% end %>
+</ul>
