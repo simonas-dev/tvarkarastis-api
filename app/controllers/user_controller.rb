@@ -13,9 +13,9 @@ class UserController < ApplicationController
 
       info_comp = {}
       info_comp['timestamp'] = "<p>" + footstep.created_at.to_s + "</p>"
+      info_comp['latLng'] = "<p>" + footstep.g_lat_lng + "</p>"
 
       marker.infowindow info_comp['timestamp']
     end
-
 	end
 end
