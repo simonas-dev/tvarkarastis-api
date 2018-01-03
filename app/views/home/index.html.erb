@@ -1,10 +1,11 @@
-<p>Tvarkaraštis Neue API</p>
-<div id="map" style='display: inline-block; width: 98vw; height: 93.5vh;'></div>
+<div id="map"></div>
+<!-- <div class="side-drawer"> -->
+</div>
 
 <script>
-    setTimeout(function() {
-      markers = handler.addMarkers(<%=raw @hash.to_json %>);
-      handler.bounds.extendWith(markers);
-      handler.fitMapToBounds();
-    }, 1000);
+  setTimeout(function() {
+    markers = handler.addMarkers(<%=raw @hash.to_json %>);
+    handler.bounds.extendWith(markers);
+    handler.fitMapToBounds();
+  }, 1000);
 </script>

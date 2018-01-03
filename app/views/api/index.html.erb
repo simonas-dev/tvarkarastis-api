@@ -1,0 +1,40 @@
+<div class="container">
+  <h1>API Docs</h1>
+
+  <h4>Get Schools with Params</h4>
+  <h5>GET /api/v1/schools</h5>
+  <div>
+    <p>Curl Request</p>
+    <code>
+      curl 'http://0.0.0.0:3000/api/v1/schools?'
+    </code>
+  </div>
+  <br>
+  <div class="form-group">
+    <form action="/api/v1/schools"  method="get">
+      <input class="btn btn-dark" type="submit" value="Sent Request">
+    </form>
+  </div>
+
+  <h4>Get Schools with Params</h4>
+  <h5>POST /api/v1/schools</h5>
+  <div>
+    <p>Curl Request</p>
+    <code>
+      curl 'http://0.0.0.0:3000/api/v1/schools' --data 'dist=1&lat=54.908928&lng=23.928594'
+    </code>
+  </div>
+  <br>
+  <div class="form-group">
+    <form action="/api/v1/schools" method="post">
+      <label for="dist">Maximum distance from point(km):</label>
+      <input class="form-control" type="number" step="0.000001" id="dist" name="dist" value="10"><br>
+      <label for="lat">Latitude</label>
+      <input class="form-control" type="number" step="0.000001" id="lat" name="lat" value="54.908928"><br>
+      <label for="lng">Longitude</label>
+      <input class="form-control" type="number" step="0.000001" id="lng" name="lng" value="23.928594"><br>
+      <input class="btn btn-dark" type="submit" value="Sent Request">
+    </form>
+  </div>
+
+</div>

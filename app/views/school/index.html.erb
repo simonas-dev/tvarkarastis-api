@@ -1,0 +1,39 @@
+<div class="container">
+  <%= form_for @school, url: {action: "save"}, html: {method: "post"} do |f| %>
+    <%= f.hidden_field :id %>
+    
+    <%= f.label :name, "School Name" %>
+    <%= f.text_field :name %><br>
+    
+    <%= label(:code, "AIKOS Code") %>
+    <%= f.text_field :code %><br>
+    
+    <%= label(:address, "address") %>
+    <%= f.text_field :address %><br>
+    
+    <%= label(:web, "Web Link") %>
+    <%= f.text_field :web %><br>
+    
+    <%= label(:g_place_id, "Google Place Id") %>
+    <%= f.text_field :g_place_id %><br>
+    
+    <%= label(:g_lat_lng, "Latitude, Longitude") %>
+    <%= f.text_field :g_lat_lng %><br>
+    
+    <%= label(:school_type, "School Category") %>
+    <%= f.text_field :school_type %><br>
+    
+    <%= label(:contacts, "Contact Information") %>
+    <%= f.text_field :contacts %><br>
+    
+    <%= f.label(:is_hidden, "is_hidden") %>
+    <%= f.check_box :is_hidden %><br>
+
+    <p>
+      <div>Created At: <%= @school.updated_at %></div>
+      <div>Updated At: <%= @school.updated_at %></div>
+    </p>
+
+    <%= f.submit "Save" %>
+  <% end %>
+</div>

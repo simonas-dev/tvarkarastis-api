@@ -1,2 +1,0 @@
-class Footstep < ApplicationRecord
-end

@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 gem 'gmaps4rails'
 gem 'lodash-rails'
 gem 'geocoder'
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'devise'
+gem 'jquery-rails'
+gem 'sprockets-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
@@ -23,7 +27,7 @@ gem 'coffee-rails', '~> 4.2'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+# gem 'turbolinks', '~> 5' DISABLED TURBOLINKS
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'capistrano-rbenv', github: "capistrano/rbenv"

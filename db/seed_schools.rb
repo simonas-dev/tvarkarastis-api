@@ -10,6 +10,8 @@ class SeedSchools
 
 		json.each do |a|
 			code = a['kodas']
+			school_type = a['type']
+			contacts = a['contacts']
 			name = a['geltoni']['name']
 			web = a['geltoni']['web']
 
@@ -29,6 +31,9 @@ class SeedSchools
 				code: code,
 				name: name,
 				web: web,
+				school_type: school_type,
+				contacts: contacts,
+				is_hidden: false,
 				address: address,
 				g_place_id: g_place_id,
 				g_lat_lng: g_lat_lng

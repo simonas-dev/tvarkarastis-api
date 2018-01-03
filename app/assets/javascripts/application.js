@@ -12,6 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+// disabled i hope = require turbolinks
 //= require lodash
 //= require_tree .
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+
